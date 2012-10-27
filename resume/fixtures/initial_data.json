@@ -1,0 +1,68 @@
+[
+    {
+        "model": "resume.person",
+        "pk": 1,
+        "fields": {
+            "fname": "Pineapple",
+            "lname": "Man",
+            "email": "pine@apple.com",
+            "phone": "888-777-6666"
+        }
+    },
+    {
+        "model": "resume.resume",
+        "pk": 1,
+        "fields": {
+            "name": "Fruit Resume",
+            "person": 1
+        }
+    },
+    {
+        "model": "resume.resume",
+        "pk": 2,
+        "fields": {
+            "name": "Bomb Resume",
+            "person": 1
+        }
+    },
+    {
+        "model": "resume.entrysection",
+        "pk": 1,
+        "fields": {
+            "resume": 1,
+            "title": "Blender Experience",
+            "mode": 1
+        }
+    },
+    {
+        "model": "resume.entrysection",
+        "pk": 2,
+        "fields": {
+            "resume": 1,
+            "title": "Decorative Experience",
+            "mode": 1
+        }
+    },
+    {
+        "model": "resume.entrysection",
+        "pk": 3,
+        "fields": {
+            "resume": 2,
+            "title": "Funny Explosions",
+            "mode": 1
+        }
+    },
+    {
+        "model": "resume.entry",
+        "pk": 1,
+        "fields": {
+            "section": 1,
+            "format_type": 1,
+            "title": "Juice Club",
+            "byline": "Major Ingredient",
+            "description": "Was a major component in the smoothie.",
+            "start_date": "2012-01-01",
+            "end_date": "2012-05-05"
+        }
+    }
+]
